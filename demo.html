@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="one-question">
+        <div class="one-question__title">
+            <span class="one-question__title__number">${number}.</span>
+            <span class="one-question__title__content">${content}</span>
+        </div>
+        <div class='one-question__choices'>
+            ${answers.map((answer, index) => {
+              const isRed =
+                index === userAnswer && userAnswer !== correctAnswer;
+              const isGreen =
+                (index === userAnswer &&
+                  userAnswer === correctAnswer) ||
+                index === correctAnswer;
+              return `
+              <div class='one-question__choices__one-choice disabled ${
+                isRed ? 'wrong-answer' : ''
+              } ${isGreen ? 'correct-answer' : ''}'>
+                  ${answer}
+              </div>`;
+            })}
+        </div>
+    </div>
+</body>
+</html>
