@@ -358,7 +358,7 @@ function restartTest() {
   submitBtn.style.display = 'block';
   resultPreview.style.display = 'none';
   scoreZone.style.display = 'none';
-  const questionsNumber = questionsBank.length < 40 ? questionsBank.length : 40;
+  const questionsNumber = questionsBank.length < 20 ? questionsBank.length : 20;
   questionsShow = getRandomQuestions(questionsNumber);
   renderQuestions(questionsShow, false);
   submitBtn.addEventListener('click', onSubmit);
