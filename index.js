@@ -105,7 +105,6 @@ const questionsBanks = [
     {
       content: 'Ce garçon est ton fils et O fille, qui est-ce?',
       answers: ['cette', 'cet', 'ce', 'ces'],
-      //TO-Do
       correctAnswer: 0,
     },
     {
@@ -157,9 +156,6 @@ const questionsBanks = [
     },
   ],
 ];
-
-let questionsBankIndex = 0;
-const questionsBank = questionsBanks[questionsBankIndex];
 
 const OneQuestion = (questionInfo, number, withAnswer) => {
   const { content, answers, correctAnswer, userAnswer } = questionInfo;
@@ -215,30 +211,41 @@ const OneResultPreview = (number, isCorrect) => {
   return `<a href="#question-${number}" class="${className} one-result-preview">${number}</a>`;
 };
 
-const ChooseQuestionsPackScreen = () => {
-  return `
+const ChooseQuestionsPackScreen = `
   <div class="choose-questions-pack-container">
-  <div class="choose-questions-pack-container--header"></div>
-  <div class=".choose-questions-pack-container--pack-list">
-    <div class=".choose-questions-pack-container--pack-list--item">
+  <div class="choose-questions-pack-container--header">Chooose Question Pack</div>
+  <div class="choose-questions-pack-container--pack-list">
+    <div class="choose-questions-pack-container--pack-list--item">
       1
     </div>
-    <div class=".choose-questions-pack-container--pack-list--item">
+    <div class="choose-questions-pack-container--pack-list--item">
       2
     </div>
-    <div class=".choose-questions-pack-container--pack-list--item">
+    <div class="choose-questions-pack-container--pack-list--item">
       3
     </div>
-    <div class=".choose-questions-pack-container--pack-list--item">
+    <div class="choose-questions-pack-container--pack-list--item">
       4
     </div>
-    <div class=".choose-questions-pack-container--pack-list--item">
+    <div class="choose-questions-pack-container--pack-list--item">
       5
     </div>
   </div>
 </div>
   `;
-};
+
+const TestTemplate = `      <div id="result-preview"></div>
+<h1 id="header">
+  Test de Français pour Hinhin
+</h1>
+<div id="questions-zone"></div>
+<button id="submit-btn">Soumettre</button>
+<div id="results-zone"></div>
+<div id="score-zone">
+  <div id="score-list-header">Votre Marque</div>
+  <div id="score-list"></div>
+  <button id="redo-test-btn">Refaire le test</button>
+</div>`
 
 const OneScoreRow = (dateString, score) => {
   if (score && dateString) {
@@ -249,15 +256,26 @@ const OneScoreRow = (dateString, score) => {
    </div>`;
   } else return '';
 };
+renderChooseQuestionsPackScreen();
 
-const questionsZone = document.getElementById('questions-zone');
+const renderChooseQuestionsPackScreen = () => {
+  rootEl.innerHTML = ChooseQuestionsPackScreen;
+  const packSelectionEls = document.getElementsByClassName('choose-questions-pack-container--pack-list--item');
+  for(let i = 0; i < packSelectionEls.length; i++){
+    packSelectionEls[i].addEventListener('click', () => {
+      rootEl.innerHTML = TestTemplate;
+      const questionsZone = document.getElementById('questions-zone');
 const resultsZone = document.getElementById('results-zone');
 const submitBtn = document.getElementById('submit-btn');
 const resultPreview = document.getElementById('result-preview');
 const scoreListEl = document.getElementById('score-list');
 const scoreZone = document.getElementById('score-zone');
 const redoBtn = document.getElementById('redo-test-btn');
+const rootEl = document.getElementById('root');
 let score = 0;
+const questionsBank = questionsBanks[0];
+
+
 let questionsShow = getRandomQuestions(10);
 
 function getRandomQuestions(questionNumber) {
@@ -271,6 +289,11 @@ function getRandomQuestions(questionNumber) {
   }
 
   return questions;
+}
+      restartTest(Number(packSelectionEls[i].textContent));
+    })
+  }
+
 }
 
 function renderQuestions(questionsShow, showResult) {
@@ -382,8 +405,10 @@ const onSubmit = () => {
   submitBtn.removeEventListener('click', onSubmit);
 };
 
-function restartTest() {
+function restartTest(packNumber) {
   score = 0;
+const questionsBank = questionsBanks[packNumber];
+
   resultsZone.innerHTML = '';
   submitBtn.style.display = 'block';
   resultPreview.style.display = 'none';
@@ -393,6 +418,5 @@ function restartTest() {
   renderQuestions(questionsShow, false);
   submitBtn.addEventListener('click', onSubmit);
   window.scrollTo(0, 0);
-}
-restartTest();
 redoBtn.addEventListener('click', restartTest);
+}
