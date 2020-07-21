@@ -49,7 +49,7 @@ const questionsBanks = [
     {
       content: 'Vous habitez où? - (___) mes parents',
       answers: ['au', 'dans', 'à la ', 'chez'],
-      correctAnswer: 0,
+      correctAnswer: 3,
     },
     {
       content: 'Nathalie et (____), nous allons au café ce soir',
