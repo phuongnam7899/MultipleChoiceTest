@@ -507,6 +507,177 @@ const questionsBanks = [
       correctAnswer: 1,
     },
   ],
+  [
+    {
+      content: 'Les sacs sont à Piere et à Paul. Ce sont (____) sacs',
+      answers: ['leur', 'ses', 'leurs', 'votre'],
+      correctAnswer: 2,
+    },
+    {
+      content: 'Ce livre (____) combien, s’il vous plaît?',
+      answers: ['leur', 'ses', 'leurs', 'petitevotres'],
+      correctAnswer: 3,
+    },
+    {
+      content: 'J’aime bien la couleur de (_____) chaussures',
+      answers: ['ce', 'cette', 'ces', 'cet'],
+      correctAnswer: 2,
+    },
+    {
+      content: 'Et (___) pantalon, il est cher, non?',
+      answers: ['ce', 'cette', 'ces', 'cet'],
+      correctAnswer: 0,
+    },
+    {
+      content: '(___) robe est très jolie, j"aime beaucoup',
+      answers: ['ce', 'cette', 'ces', 'cet'],
+      correctAnswer: 1,
+    },
+    {
+      content: 'Vous aimez (___) hotel?',
+      answers: ['ce', 'cette', 'ces', 'cet'],
+      correctAnswer: 1,
+    },
+    {
+      content: 'Ce blouson est (___) vous? - Oui, c’est mon blouson',
+      answers: ['sur', 'sous', 'à', 'au-dessous'],
+      correctAnswer: 2,
+    },
+    {
+      content: 'Comment est-ce que vous trouvez (____) lunettes?',
+      answers: ['ce', 'cette', 'ces', 'cet'],
+      correctAnswer: 2,
+    },
+    {
+      content: 'Je suis chez (_____) amie',
+      answers: ['petit', 'ma ', 'ta', 'sa'],
+      correctAnswer: 0,
+    },
+    {
+      content: 'Tu es au restaurant avec Paul? - Oui, je suis avec (____)',
+      answers: ['elle', 'il', 'lui', 'eux'],
+      correctAnswer: 2,
+    },
+    {
+      content: 'Chez moi, la cuisine est très (____)',
+      answers: ['ancien', 'claires', 'grande', 'petit'],
+      correctAnswer: 2,
+    },
+    {
+      content: 'Chez eux, la chambre et le salone sont (____)',
+      answers: ['anciennes', 'claires', 'sombres', 'petite'],
+      correctAnswer: 2,
+    },
+    {
+      content: 'Où sont les placards? - Ils sont (_____)',
+      answers: ['dans la chambre', 'à nous', 'tres beaux', 'grands'],
+      correctAnswer: 0,
+    },
+    {
+      content: 'Les toilettes sont (___) de la salle de bains',
+      answers: ['dans', 'devant', 'contre', 'en face'],
+      correctAnswer: 3,
+    },
+    {
+      content: 'Vous avez deux (____) dans l’appartement',
+      answers: ['salon', 'placards ', 'étages', 'chambres'],
+      correctAnswer: 1,
+    },
+    {
+      content: 'Elle est (____) et blonde',
+      answers: ['petit', 'petite', 'petits', 'petites'],
+      correctAnswer: 1,
+    },
+    {
+      content:
+        'Ta mere habite avec ta femme et toi? - Oi, elle habite avec (____)',
+      answers: ['nous', 'moi', 'elle', 'vous'],
+      correctAnswer: 0,
+    },
+    {
+      content: 'C’est calme dans leur immeuble? - Oui, c’est calme chez (____)',
+      answers: ['toi', 'eux', 'lui', 'nous'],
+      correctAnswer: 1,
+    },
+    {
+      content: 'Suzane habite au (____) étage',
+      answers: ['dernière', 'trois', 'premier', 'première'],
+      correctAnswer: 2,
+    },
+    {
+      content:
+        'Jean et Chantal habitent (____) au-dessus de l’appartement de Mme Barbier',
+      answers: ['sous', 'au-dessus', 'dans', 'au centre'],
+      correctAnswer: 1,
+    },
+    {
+      content:
+        'L’immeuble est (____) de la rue Michelet et de la rue du Palais',
+      answers: ['au coin', 'au bout', 'à droite', 'dans'],
+      correctAnswer: 0,
+    },
+    {
+      content: 'Ils vont (_____) musée du Louvre',
+      answers: ['à la', 'au', 'en', 'dans'],
+      correctAnswer: 1,
+    },
+    {
+      content: 'Allez tout droit jusqu’(_____) opéra',
+      answers: ['à la', 'au ', 'en', 'à l’'],
+      correctAnswer: 3,
+    },
+    {
+      content: 'Les étudiants sont (____) de l"université? - Oui, ils y sont',
+      answers: ['dans la cour', 'devant', 'après', 'chez'],
+      correctAnswer: 1,
+    },
+    {
+      content: '(____) est-ce que tu vas à la poste? - En bus',
+      answers: ['Où', 'Comment', 'Qu’', 'Qui'],
+      correctAnswer: 1,
+    },
+    {
+      content: ' La gare Saint-Laza, c’est loin? (_____)',
+      answers: [
+        '- Non, c’est très loin. Allez-y en voiture',
+        '- Oui, pour y aller, prenez un taxi',
+        '- Oui, il est dans la rue de Rennes',
+        '- Oui, ce n’est pas loin. Allez-y à pied',
+      ],
+      correctAnswer: 1,
+    },
+    {
+      content: 'Il va aux Galeries Lafayette (___) vélo',
+      answers: ['à la', 'au', 'en', 'à'],
+      correctAnswer: 3,
+    },
+    {
+      content: 'Je prends (____) métro pour aller au travail',
+      answers: ['la', 'le', 'en', 'à'],
+      correctAnswer: 1,
+    },
+    {
+      content: 'Traversez (_____)!',
+      answers: ['à gauche', 'tout droit', 'le pont', 'en bus'],
+      correctAnswer: 2,
+    },
+    {
+      content:
+        'Vous allez à la banque? C’est facile. Allez tout droit, jusqu"au pont et (____)!',
+      answers: [
+        'tournez à gauche',
+        'tourne à gauche',
+        'tournons à gauche',
+        'prenez ',
+      ],
+      correctAnswer: 0,
+    },
+    {
+      content: 'On (____) la grande avenue en face',
+      answers: ['prend', 'prenons ', 'prennent', 'prenez '],
+      correctAnswer: 0,
+    },
+  ],
 ];
 
 let questionsBankIndex = Number(localStorage.getItem('questionPack')) - 1;
