@@ -334,6 +334,179 @@ const questionsBanks = [
       correctAnswer: 2,
     },
   ],
+  [
+    {
+      content: 'Il porte des lunettes et il est (___)',
+      answers: ['grand', 'grandes', 'grande', 'grands'],
+      correctAnswer: 0,
+    },
+    {
+      content: 'Ces photos sont (____)',
+      answers: ['jollies', 'jolie', 'joli', 'jolis'],
+      correctAnswer: 0,
+    },
+    {
+      content: 'Tu (____) une soeur?',
+      answers: ['a', 'as', 'ai', 'est'],
+      correctAnswer: 1,
+    },
+    {
+      content: 'Le chat? Il (____) sur la chaise?',
+      answers: ['a', 'as', 'ai', 'est'],
+      correctAnswer: 1,
+    },
+    {
+      content: 'Elle (____) un sac noir',
+      answers: ['est ', 'es', 'a', 'ai'],
+      correctAnswer: 2,
+    },
+    {
+      content: ' Leurs amis (____) étudiants à Paris.',
+      answers: ['suis', 'ont', 'sont', 'est'],
+      correctAnswer: 2,
+    },
+    {
+      content: ` 
+      - Véronique a des lunettes?
+      - Non, elle n’a pas (____) lunettes.
+      `,
+      answers: ['des', 'de', 'ces', 'les'],
+      correctAnswer: 1,
+    },
+    {
+      content: ` 
+      - Tu aimes ce pantalon?
+      - Non, je n’aime pas (____) pantalon
+      `,
+      answers: ['de', 'un', 'cette', 'ce'],
+      correctAnswer: 3,
+    },
+    {
+      content: ` 
+      - Il porte une chemise blanche?
+      - Non, il ne porte pas (_____) chemise blanche
+      `,
+      answers: ['une', 'cette', 'ce', 'de'],
+      correctAnswer: 3,
+    },
+    {
+      content: `
+      - Tu as son numéro de téléphone?
+      - Non, il ne porte pas (_____) chemise blanche
+      `,
+      answers: ['une', 'cette', 'ce', 'de'],
+      correctAnswer: 3,
+    },
+    {
+      content: 'Comment tu trouves (_____) lunettes?',
+      answers: ['ces', 'ce', 'cette', 'cet'],
+      correctAnswer: 0,
+    },
+    {
+      content: '(___) objet rouge et blanc, là, c’est quoi?',
+      answers: ['ce', 'cette', 'cet', 'ces'],
+      correctAnswer: 2,
+    },
+    {
+      content: 'Je trouve (____) chemise trè jolie',
+      answers: ['ces', 'ce', 'cette', 'cet'],
+      correctAnswer: 2,
+    },
+    {
+      content: 'Ces chaussures coûtent (____)?',
+      answers: ['comment', 'combien', 'quelles', 'quels'],
+      correctAnswer: 1,
+    },
+    {
+      content: '(______) tu trouves cette table? Elle est jolie, non?',
+      answers: ['Combine', 'Qui', 'Comment', 'Quelle'],
+      correctAnswer: 2,
+    },
+    {
+      content: '(______) est le prix de cette robe, s’il vous plaît?',
+      answers: ['Combine', 'Qui', 'Comment', 'Quel'],
+      correctAnswer: 3,
+    },
+    {
+      content: 'Il y a (____) couleurs?',
+      answers: ['quel', 'quelle', 'quelles', 'quels'],
+      correctAnswer: 2,
+    },
+    {
+      content: `
+      - Les chaussures sont à elle?
+      - Oui, ce sont (____) chaussures
+      `,
+      answers: ['mes', 'ces', 'tes', 'nos'],
+      correctAnswer: 1,
+    },
+    {
+      content: `
+      - Ces chemises sont à toi?
+      - Non, ce ne sont pas (____) chemises
+      `,
+      answers: ['mes', 'ces', 'tes', 'nos'],
+      correctAnswer: 0,
+    },
+    {
+      content: `
+      - Les manteaux sont à nous?
+      - Oui, ce sont (____) manteaux
+      `,
+      answers: ['mes', 'ces', 'tes', 'vos'],
+      correctAnswer: 0,
+    },
+    {
+      content: 'Où (____) les livres?',
+      answers: ['est', 'sont', 'ont', 'vont'],
+      correctAnswer: 1,
+    },
+    {
+      content: 'Cent dix-neuf?',
+      answers: ['119', '1019', '109', '10019'],
+      correctAnswer: 0,
+    },
+    {
+      content: 'Neuf cent soixante-dix-neuf?',
+      answers: ['90069', '969', '979', '9179'],
+      correctAnswer: 2,
+    },
+    {
+      content: 'Tu as un pantalon noir et (____), il a un jean bleu',
+      answers: ['elle', 'il', 'lui', 'eux'],
+      correctAnswer: 2,
+    },
+    {
+      content: 'Qu’est-ce qui;il y a contre (____) mur',
+      answers: ['un', 'le', 'une', 'la'],
+      correctAnswer: 1,
+    },
+    {
+      content: '(_____) - Ce sont des photos',
+      answers: ['Qu’est-ce que c’est?', 'Qui est-ce?', 'Ca va?', 'C’est qui?'],
+      correctAnswer: 0,
+    },
+    {
+      content: 'Elle (____) une chemise blanche et un jean',
+      answers: ['parle', 'porte', 'est', 'ai'],
+      correctAnswer: 1,
+    },
+    {
+      content: 'Tu (_____) italienne?',
+      answers: ['est', 'es', 'ai', 'a'],
+      correctAnswer: 1,
+    },
+    {
+      content: 'Il (____) grand et brun',
+      answers: ['ai', 'a', 'es', 'est'],
+      correctAnswer: 3,
+    },
+    {
+      content: 'Elle est (____) et blonde',
+      answers: ['petit', 'petite', 'petits', 'petites'],
+      correctAnswer: 1,
+    },
+  ],
 ];
 
 let questionsBankIndex = Number(localStorage.getItem('questionPack')) - 1;
