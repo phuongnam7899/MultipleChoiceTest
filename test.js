@@ -79,7 +79,7 @@ const questionsBanks = [
     {
       content: 'Ce sac est à toi? -  Non, il est à (____)',
       answers: ['ton', 'votre', 'ma', 'ses'],
-      correctAnswer: 3,
+      correctAnswer: 2,
     },
     {
       content: 'C"est votre chemise? - Oui, elle est à (____)',
@@ -137,7 +137,7 @@ const questionsBanks = [
       content:
         'C’est la voiture de Monsieur et de Madame Delvaux? - Oui, c’est (____) voiture',
       answers: ['votre', 'nos', 'ses', 'leur'],
-      correctAnswer: 1,
+      correctAnswer: 3,
     },
     {
       content: 'Sur (____) photo, c’est ma femme',
@@ -154,6 +154,184 @@ const questionsBanks = [
       content: 'Dans ma chambre, il y a (____) tablet et (____) chaises',
       answers: ['une / les', 'une / des', 'un / des', 'la / les'],
       correctAnswer: 1,
+    },
+  ],
+  [
+    {
+      content:
+        'C’est (____) chapeau, monsieur? - Non, ce n’est pas (____) chapeau.',
+      answers: ['ton/mon', 'votre/notre', 'mon/son', 'votre/mon'],
+      correctAnswer: 3,
+    },
+    {
+      content: 'Naoko est japonaise son père est (_____)',
+      answers: ['polonaise', 'belge', 'japonaise', 'américaine'],
+      correctAnswer: 1,
+    },
+    {
+      content: '(____) est ton adresse e-mail? - C’est sandro@yahoo.fr',
+      answers: ['quelle', 'quels', 'quelles', 'quel'],
+      correctAnswer: 0,
+    },
+    {
+      content:
+        'Bonjour mes amis! Je suis vietnamien et (____) sont vos nationalités?',
+      answers: ['quels', 'quelle', 'quelles', 'quel'],
+      correctAnswer: 2,
+    },
+    {
+      content: 'Salut Paul, ca va? - Oui, ca va bien, merci et (____)?',
+      answers: ['vous', 'toi', 'moi', 'nous'],
+      correctAnswer: 1,
+    },
+    {
+      content: '591: (_____)',
+      answers: [
+        'Cinq cents quatre-vingt-onze',
+        'Cinq cent quatre-vingt et onze',
+        'Cinq cent quatre-vingts-onze',
+        'Cinq cent quatre-vingt-onze',
+      ],
+      correctAnswer: 3,
+    },
+    {
+      content:
+        'Mon père est professeur et ma mère est (_____) dans un restaurant',
+      answers: ['serveuse', 'dentiste', 'boulanger', 'voisine'],
+      correctAnswer: 0,
+    },
+    {
+      content:
+        'Paola est (____), mais elle habite (____) Berlin, (____) Allemagne',
+      answers: [
+        'italien/en/à',
+        'italienne/à/en',
+        'italienne/à/au',
+        'italien/à/en',
+      ],
+      correctAnswer: 1,
+    },
+    {
+      content: 'Excusez-moi, vous (____) monsieur LAPORTE?',
+      answers: ['avez', 'vous appelez', 'allex', 'êtes'],
+      correctAnswer: 3,
+    },
+    {
+      content: '(____) est-ce? C’est Anna, elle est polonaise',
+      answers: ['Comment', 'Quelle', 'Où', 'Qui'],
+      correctAnswer: 3,
+    },
+    {
+      content: 'Je (____) canadien, je (____) Louis',
+      answers: [
+        'm’appelle/suis',
+        'suis/t’appelles',
+        'suis/m’appelle',
+        'suit/m’appelle',
+      ],
+      correctAnswer: 2,
+    },
+    {
+      content:
+        'Quel est votre (____), mademoiselle? - Lervoy, je m’appelle Marie Lervoy',
+      answers: ['nationalité', 'prénom', 'nom', 'profession'],
+      correctAnswer: 2,
+    },
+    {
+      content: ' Salut, Nicolas! Tu (___) bien? - Ca va bien, merci et toi?',
+      answers: ['es', 'vas', 'as', 'aimes'],
+      correctAnswer: 1,
+    },
+    {
+      content:
+        'Quelles langues est-ce que vous (____)? - Espagnol, anglais et italien',
+      answers: ['parlez ', 'êtes', 'allez', 'prenez'],
+      correctAnswer: 0,
+    },
+    {
+      content: 'J’ai 20 ans et toi, tu as (____)?',
+      answers: ['comment', 'qui', 'où', 'quel âge'],
+      correctAnswer: 3,
+    },
+    {
+      content: 'Quelle est ton (____)? - C’est: 19 rue Pasteur à Paris',
+      answers: ['chambre', 'adresse', 'âge', 'numero de telephone'],
+      correctAnswer: 1,
+    },
+    {
+      content: 'Ma mère est chinoise et mon père est (____)',
+      answers: ['suisse', 'vietnamienne', 'allemands', 'allemande'],
+      correctAnswer: 0,
+    },
+    {
+      content: '(_____) estudiante, c’est (____) amie?',
+      answers: ['cet/ton', 'ce/ta', 'cette/ton', 'cette/ta'],
+      correctAnswer: 2,
+    },
+    {
+      content: 'Et ton mari, il s’appelle (____)? - Paul Martin',
+      answers: ['quel nom', 'qui est-ce', 'comment', 'quel âge'],
+      correctAnswer: 2,
+    },
+    {
+      content: 'Quelle est la (____) de ton frère? - Il est boulanger',
+      answers: ['nationalité', 'adresse', 'profession', 'nom '],
+      correctAnswer: 2,
+    },
+    {
+      content: ' La table est (____) le mur',
+      answers: ['à côté de', 'contre', 'dans', 'au-dessus'],
+      correctAnswer: 1,
+    },
+    {
+      content: 'Les livres sont (____) l’étagère',
+      answers: ['près', 'à gauche', 'sur', 'dans'],
+      correctAnswer: 2,
+    },
+    {
+      content: 'Le fauteuil est à (_____) de la porte et la chaise à droite',
+      answers: ['contre', 'devant', 'derrière', 'gauche'],
+      correctAnswer: 3,
+    },
+    {
+      content: 'Les photos sont (____) mon sac',
+      answers: ['à côté', 'dans', 'entre', 'à gauche'],
+      correctAnswer: 1,
+    },
+    {
+      content: ' La chaise est (____) la fenêtre et les étagères.',
+      answers: ['dans', 'sur', 'entre', 'à côté'],
+      correctAnswer: 2,
+    },
+    {
+      content: 'Le chat est (____) la chaise',
+      answers: ['dans', 'entre', 'au-dessous', 'sur'],
+      correctAnswer: 3,
+    },
+    {
+      content: 'Je n’aime pas les vêtements',
+      answers: ['noires', 'noirs', 'blanches', 'blanc'],
+      correctAnswer: 1,
+    },
+    {
+      content: 'C’est une femme (____)',
+      answers: ['blond', 'blonde', 'blondes', 'blonds'],
+      correctAnswer: 1,
+    },
+    {
+      content: ' Il a une chemise (_____)',
+      answers: ['bleus', 'bleu', 'bleue', 'bleues'],
+      correctAnswer: 2,
+    },
+    {
+      content: 'Nous avons un chat (_____)',
+      answers: [
+        'blancs et gris',
+        'blanche et grises',
+        'blanc et gris',
+        'blanches et grises',
+      ],
+      correctAnswer: 2,
     },
   ],
 ];
