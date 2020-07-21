@@ -1,32 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <div class="one-question">
-        <div class="one-question__title">
-            <span class="one-question__title__number">${number}.</span>
-            <span class="one-question__title__content">${content}</span>
+  </head>
+  <body>
+    <div class="choose-questions-pack-container">
+      <div class="choose-questions-pack-container--header"></div>
+      <div class=".choose-questions-pack-container--pack-list">
+        <div class=".choose-questions-pack-container--pack-list--item">
+          1
         </div>
-        <div class='one-question__choices'>
-            ${answers.map((answer, index) => {
-              const isRed =
-                index === userAnswer && userAnswer !== correctAnswer;
-              const isGreen =
-                (index === userAnswer &&
-                  userAnswer === correctAnswer) ||
-                index === correctAnswer;
-              return `
-              <div class='one-question__choices__one-choice disabled ${
-                isRed ? 'wrong-answer' : ''
-              } ${isGreen ? 'correct-answer' : ''}'>
-                  ${answer}
-              </div>`;
-            })}
+        <div class=".choose-questions-pack-container--pack-list--item">
+          2
         </div>
+        <div class=".choose-questions-pack-container--pack-list--item">
+          3
+        </div>
+        <div class=".choose-questions-pack-container--pack-list--item">
+          4
+        </div>
+        <div class=".choose-questions-pack-container--pack-list--item">
+          5
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
