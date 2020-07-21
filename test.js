@@ -147,7 +147,7 @@ const questionsBanks = [
     {
       content:
         'Julie aime beaucoup (___) danse, mais elle n’aime pas (____) sport',
-      answers: ['le / la', 'le / le', ' la / la', 'la / le'],
+      answers: ['le / la', 'le / le', 'la / la', 'la / le'],
       correctAnswer: 3,
     },
     {
@@ -238,7 +238,7 @@ const questionsBanks = [
       correctAnswer: 2,
     },
     {
-      content: ' Salut, Nicolas! Tu (___) bien? - Ca va bien, merci et toi?',
+      content: 'Salut, Nicolas! Tu (___) bien? - Ca va bien, merci et toi?',
       answers: ['es', 'vas', 'as', 'aimes'],
       correctAnswer: 1,
     },
@@ -279,7 +279,7 @@ const questionsBanks = [
       correctAnswer: 2,
     },
     {
-      content: ' La table est (____) le mur',
+      content: 'La table est (____) le mur',
       answers: ['à côté de', 'contre', 'dans', 'au-dessus'],
       correctAnswer: 1,
     },
@@ -299,7 +299,7 @@ const questionsBanks = [
       correctAnswer: 1,
     },
     {
-      content: ' La chaise est (____) la fenêtre et les étagères.',
+      content: 'La chaise est (____) la fenêtre et les étagères.',
       answers: ['dans', 'sur', 'entre', 'à côté'],
       correctAnswer: 2,
     },
@@ -319,7 +319,7 @@ const questionsBanks = [
       correctAnswer: 1,
     },
     {
-      content: ' Il a une chemise (_____)',
+      content: 'Il a une chemise (_____)',
       answers: ['bleus', 'bleu', 'bleue', 'bleues'],
       correctAnswer: 2,
     },
@@ -361,7 +361,7 @@ const questionsBanks = [
       correctAnswer: 2,
     },
     {
-      content: ' Leurs amis (____) étudiants à Paris.',
+      content: 'Leurs amis (____) étudiants à Paris.',
       answers: ['suis', 'ont', 'sont', 'est'],
       correctAnswer: 2,
     },
@@ -637,7 +637,7 @@ const questionsBanks = [
       correctAnswer: 1,
     },
     {
-      content: ' La gare Saint-Laza, c’est loin? (_____)',
+      content: 'La gare Saint-Laza, c’est loin? (_____)',
       answers: [
         '- Non, c’est très loin. Allez-y en voiture',
         '- Oui, pour y aller, prenez un taxi',
@@ -675,6 +675,191 @@ const questionsBanks = [
     {
       content: 'On (____) la grande avenue en face',
       answers: ['prend', 'prenons ', 'prennent', 'prenez '],
+      correctAnswer: 0,
+    },
+  ],
+  [
+    {
+      content: 'Elles arrivent à l"entrée (____) pyramide.',
+      answers: ['à la', 'de la', 'au ', 'de'],
+      correctAnswer: 1,
+    },
+    {
+      content: 'La ville de Saint-Paul est (____) l"île',
+      answers: ['à côté', 'dans', 'à l’ouest de', 'en face '],
+      correctAnswer: 2,
+    },
+    {
+      content: 'On (____) le centre de l"île en hélicoptère ',
+      answers: ['va', 'visite ', 'entre', 'passes'],
+      correctAnswer: 1,
+    },
+    {
+      content: 'L"hôtel est en face de la (____)',
+      answers: ['agence', 'jardin ', 'mer', 'cinema'],
+      correctAnswer: 2,
+    },
+    {
+      content: 'Nous avons une chambre avec (_____)',
+      answers: ['salle de sport', 'aeroport', 'terrasse', 'restaurant '],
+      correctAnswer: 2,
+    },
+    {
+      content: '(____) parle français à la Réunion',
+      answers: ['Nous', 'Vous ', 'on', 'tu'],
+      correctAnswer: 2,
+    },
+    {
+      content: '- (_____)? - C’est grand',
+      answers: [
+        'Elle est grande?',
+        'L"hôtel est comment? ',
+        'Où est l’hotel?',
+        'Elle est comment? ',
+      ],
+      correctAnswer: 1,
+    },
+    {
+      content: 'Marseille est (_____) la France',
+      answers: ['au bord de', 'au sud de', 'au fond de', 'en face'],
+      correctAnswer: 1,
+    },
+    {
+      content: 'C’est ton tee-shirt? - Oui, il est à (_____)',
+      answers: ['moi', 'toi', 'elle', 'lui'],
+      correctAnswer: 0,
+    },
+    {
+      content: 'Les photos, elles sont à vous? - Oui, elles sont à (____)',
+      answers: ['lui', 'nous', 'vous', 'eux'],
+      correctAnswer: 1,
+    },
+    {
+      content:
+        'Ce sont les vêtement de Sophie et d’Anne? - Non, ils ne sont pas à (____)',
+      answers: ['eux', 'elles', 'nous', 'vous'],
+      correctAnswer: 1,
+    },
+    {
+      content: 'On visite la ville (____) pied ou (____) bus?',
+      answers: ['à / le', 'au / en', 'en / à', 'à / en'],
+      correctAnswer: 3,
+    },
+    {
+      content: 'La visite continue (_____) la Seine, (_____) bateau',
+      answers: ['sur / dans', 'dans / sur ', 'sur / e', ''],
+      correctAnswer: 2,
+    },
+    {
+      content: 'On est (____) un hotel (____) de la Mediterranee',
+      answers: ['dans / sur', 'au / au bord', 'en / près', 'dans / au bord '],
+      correctAnswer: 3,
+    },
+    {
+      content: 'Ils vont (____) Marseille ce week-end',
+      answers: ['à la', 'au', 'à', 'en '],
+      correctAnswer: 2,
+    },
+    {
+      content: 'Au Brésil, (____) danse la samba',
+      answers: ['nous', 'on', 'ils', 'Les gens'],
+      correctAnswer: 1,
+    },
+    {
+      content: '- (_____)? - Oui, c’est cher, très cher',
+      answers: [
+        'Le voyage coûte combien?',
+        'Le voyage coûte cher?',
+        'Quel est le prix du voyage?',
+        'Le voyage n’est pas cher?',
+      ],
+      correctAnswer: 1,
+    },
+    {
+      content: '- (_____)? - C’est une île',
+      answers: [
+        'Ou est la Martinique?',
+        'Comment est la Martinique?',
+        'Qu’est-ce que c’est la Martinique?',
+        'À qui est la Martinique?',
+      ],
+      correctAnswer: 2,
+    },
+    {
+      content: '- (_____)? - Il est au bout de la rue de Rennes',
+      answers: [
+        'Le musée du Louvre est comment?',
+        'Le musée du Louvre, c’est où? ',
+        'Où est l’église Saint-Germain-des-Prés?',
+        'La poste, on y va comment?',
+      ],
+      correctAnswer: 1,
+    },
+    {
+      content: 'Bon, alors, on va au restaurant?',
+      answers: [
+        'Oui, il y a',
+        'Oui, nous y allons ',
+        'Non, il n’y va pas',
+        'Non, nous y allons',
+      ],
+      correctAnswer: 1,
+    },
+    {
+      content:
+        'Les deux hotel ont des chambres avec l’air conditionné, la télévision et le (_____)',
+      answers: ['telephone', 'terrasse ', 'piscine', 'douche'],
+      correctAnswer: 0,
+    },
+    {
+      content: 'À l"hôtel de la plage, il n’y a pas (_____)',
+      answers: [
+        'une salle de sport',
+        'de parking',
+        'des télévision',
+        'deux bars',
+      ],
+      correctAnswer: 1,
+    },
+    {
+      content: '(______), s’il vous plait!',
+      answers: ['Entre', 'Entres', 'Entrez', 'Entrer '],
+      correctAnswer: 2,
+    },
+    {
+      content:
+        'Tu vas aux Galeries Lafayette? Oh là là, c’est loin. (____) le bus!',
+      answers: ['prends', 'prennent', 'prend', 'prenez'],
+      correctAnswer: 0,
+    },
+    {
+      content: 'Paul, (____) à l"école avec ton frère!',
+      answers: ['vas', 'va', 'allez', 'allons'],
+      correctAnswer: 1,
+    },
+    {
+      content: 'Tu es sénégalais? Alors, (_____) francais avec moi!',
+      answers: ['Parle', 'Parles', 'Parlons', 'Parlez'],
+      correctAnswer: 0,
+    },
+    {
+      content: 'Allez - y en (____)!',
+      answers: ['bus', 'moto', 'pied', 'vélo'],
+      correctAnswer: 0,
+    },
+    {
+      content: ' Ils (______) à la gare avec moi',
+      answers: ['ont', 'vont', 'traversent', 'continuent'],
+      correctAnswer: 1,
+    },
+    {
+      content: 'Tu (____) à la poste en voiture?',
+      answers: ['prends', 'est', 'va', 'passes'],
+      correctAnswer: 3,
+    },
+    {
+      content: 'Nous (_____) dans la cour du Louvre',
+      answers: ['entrons', 'arrivent', 'passez', 'avons'],
       correctAnswer: 0,
     },
   ],
